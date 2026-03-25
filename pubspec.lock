@@ -134,18 +134,20 @@ packages:
   path_provider_linux:
     dependency: "direct main"
     description:
-      name: path_provider_linux
-      sha256: f7a1fe3a634fe7734c8d3f2766ad746ae2a2884abe22e241a8b301bf5cac3279
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "617e43452bb3e556908103eba3e7757a34023b65"
+      url: "https://github.com/kumsumit/path_provider_linux.git"
+    source: git
     version: "2.2.1"
   path_provider_platform_interface:
     dependency: "direct main"
     description:
-      name: path_provider_platform_interface
-      sha256: "88f5779f72ba699763fa3a3b06aa4bf6de76c8e5de842cf6f29e2e06476c2334"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "0e399288d800499fce3b215d24f32c115830be67"
+      url: "https://github.com/kumsumit/path_provider_platform_interface.git"
+    source: git
     version: "2.1.2"
   platform:
     dependency: transitive
@@ -158,18 +160,20 @@ packages:
   plugin_platform_interface:
     dependency: transitive
     description:
-      name: plugin_platform_interface
-      sha256: "4820fbfdb9478b1ebae27888254d445073732dae3d6ea81f0b7e06d5dedc3f02"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: f19d3faf8d449aa73be0c3c71bd7e67fc0fb28bf
+      url: "https://github.com/kumsumit/plugin_platform_interface.git"
+    source: git
     version: "2.1.8"
   shared_preferences_platform_interface:
     dependency: "direct main"
     description:
-      name: shared_preferences_platform_interface
-      sha256: "57cbf196c486bc2cf1f02b85784932c6094376284b3ad5779d1b1c6c6a816b80"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: adb7cbf691d52dd414dbbb85909a7fd71615552a
+      url: "https://github.com/kumsumit/shared_preferences_platform_interface.git"
+    source: git
     version: "2.4.1"
   sky_engine:
     dependency: transitive
@@ -243,11 +247,12 @@ packages:
   xdg_directories:
     dependency: transitive
     description:
-      name: xdg_directories
-      sha256: "7a3f37b05d989967cdddcbb571f1ea834867ae2faa29725fd085180e0883aa15"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.1.0"
+      path: "."
+      ref: HEAD
+      resolved-ref: "410932cf9651a439aa3e2c2f21098cc61e6daa8a"
+      url: "https://github.com/kumsumit/xdg_directories.git"
+    source: git
+    version: "1.0.3"
 sdks:
-  dart: ">=3.9.0 <4.0.0"
-  flutter: ">=3.35.0"
+  dart: ">=3.11.0 <4.0.0"
+  flutter: ">=3.41.0"
